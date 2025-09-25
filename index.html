@@ -5,25 +5,151 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+ <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #fff;
+      color: #222;
+    }
 
+    /* Header */
+    header {
+      background: #111;
+      color: white;
+      padding: 15px 30px;
+      font-size: 22px;
+      font-weight: bold;
+    }
 
+    /* Section Title */
+    h2 {
+      text-align: center;
+      margin: 30px 0 20px;
+      font-size: 26px;
+      color: #222;
+    }
+
+    /* Product Section */
+    .products {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 25px;
+      padding: 0 40px;
+    }
+
+    .product-card {
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 20px;
+      width: 300px;
+      text-align: center;
+      transition: 0.3s;
+    }
+
+    .product-card:hover {
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    }
+
+    .product-card img {
+      width: 100%;
+      height: auto;
+      border-radius: 6px;
+    }
+
+    .product-title {
+      margin: 15px 0 10px;
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    .price {
+      font-size: 16px;
+      color: #d00;
+      margin: 10px 0;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 18px;
+      background: red;
+      color: white;
+      text-decoration: none;
+      border-radius: 4px;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+
+    .btn:hover {
+      background: darkred;
+    }
+
+    /* Grid for Prebuilt PCs */
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      padding: 20px 40px;
+    }
+  </style>
 </head>
 <body>
-    <h1>JSON Server Setup</h1>
-  <!-- User Form -->
-  <form id="userForm">
-    <label for="name">Name:</label>
-    <input type="text" id="name" placeholder="Enter name" required>
-    
-    <label for="age">Age:</label>
-    <input type="number" id="age" placeholder="Enter age" required>
-    
-    <button type="submit">Add User</button>
-  </form>
-    <hr>
-    <div id="container">
 
+  <header>Modx Computers</header>
+
+  <!-- Custom PC Section -->
+  <h2>Build Your Custom PC</h2>
+  <div class="products">
+    <div class="product-card">
+      <img src="https://img.modxcomputers.com/modx/1753705233432-Frame-5-56-2.png" alt="Intel PC">
+      <div class="product-title">Intel Custom PC Build</div>
+      <div class="price">From ₹20,000</div>
+      <a href="#" class="btn">Select Options</a>
     </div>
+    <div class="product-card">
+      <img src="https://img.modxcomputers.com/modx/1753702552010-Asus-Dual-RX-7600-OC-Edition-8GB.webp" alt="AMD PC">
+      <div class="product-title">AMD Custom PC Build</div>
+      <div class="price">From ₹20,000</div>
+      <a href="#" class="btn">Select Options</a>
+    </div>
+  </div>
+
+  <!-- Prebuilt PC Section -->
+  <h2>Pre-Built PC Builds</h2>
+  <div class="grid">
+    <div class="product-card">
+      <img src="https://g.sdlcdn.com/imgs/k/x/4/Archer-Tech-Lab-Gaming-Mousepad-SDL451712898-1-12fb2.jpg" alt="Value PC">
+      <div class="product-title">Modx Value PC Build</div>
+      <div class="price">From ₹50,000</div>
+      <a href="#" class="btn">Select Options</a>
+    </div>
+    <div class="product-card">
+      <img src="https://g.sdlcdn.com/imgs/k/x/3/Archer-Tech-Lab-Gaming-Mousepad-SDL701040369-1-51fbf.jpg?w=220&h=258&sharp=7" alt="Extreme PC">
+      <div class="product-title">Modx Extreme PC Build</div>
+      <div class="price">From ₹1,40,000</div>
+      <a href="#" class="btn">Select Options</a>
+    </div>
+    <div class="product-card">
+      <img src="https://g.sdlcdn.com/imgs/k/y/y/Archer-Tech-Lab-Gaming-Keyboard-SDL598944347-1-9d630.jpg" alt="Budget PC">
+      <div class="product-title">Modx Budget PC Build</div>
+      <div class="price">From ₹30,000</div>
+      <a href="#" class="btn">Select Options</a>
+    </div>
+    <div class="product-card">
+      <img src="https://tse1.mm.bing.net/th/id/OIP.X97t5715bSUHpJA0mTgIUQHaD5?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Pro PC">
+      <div class="product-title">Modx Pro PC Build</div>
+      <div class="price">From ₹70,000</div>
+      <a href="#" class="btn">Select Options</a>
+    </div>
+    <div class="product-card">
+      <img src="https://sm.ign.com/t/ign_in/screenshot/default/hardware-igx_nvpc.1200.jpg" alt="Ultimate PC">
+      <div class="product-title">Modx Ultimate PC Build</div>
+      <div class="price">From ₹2,40,000</div>
+      <a href="#" class="btn">Select Options</a>
+    </div>
+  </div>
 </body>
 <script src="./index.js"></script>
 </html>
