@@ -1,15 +1,15 @@
 {
   "users": [
-    { "id": 1, "name": "Alice Johnson", "email": "alice@example.com", "age": 28 },
-    { "id": 2, "name": "Bob Smith", "email": "bob@example.com", "age": 34 },
-    { "id": 3, "name": "Charlie Davis", "email": "charlie@example.com", "age": 22 },
-    { "id": 4, "name": "Diana Moore", "email": "diana@example.com", "age": 29 },
-    { "id": 5, "name": "Ethan Brown", "email": "ethan@example.com", "age": 41 },
-    { "id": 6, "name": "Fiona Clark", "email": "fiona@example.com", "age": 36 },
-    { "id": 7, "name": "George Wilson", "email": "george@example.com", "age": 25 },
-    { "id": 8, "name": "Hannah Lewis", "email": "hannah@example.com", "age": 31 },
-    { "id": 9, "name": "Ian Thompson", "email": "ian@example.com", "age": 27 },
-    { "id": 10, "name": "Jane Hall", "email": "jane@example.com", "age": 30 }
+   { "id": 1, "name": "Kumkum jatt", "email": "kukum@example.com", "age": 28 },
+  { "id": 2, "name": "dushyant", "email": "bob@example.com", "age": 34 },
+  { "id": 3, "name": "Davis", "email": "charlie@example.com", "age": 22 },
+  { "id": 4, "name": "harsita", "email": "diana@example.com", "age": 29 },
+  { "id": 5, "name": "shurti soni", "email": "ethan@example.com", "age": 41 },
+  { "id": 6, "name": "nandani yadav", "email": "fiona@example.com", "age": 36 },
+  { "id": 7, "name": "priya pathak", "email": "george@example.com", "age": 25 },
+  { "id": 8, "name": "md raj", "email": "hannah@example.com", "age": 31 },
+  { "id": 9, "name": "nilesh", "email": "ian@example.com", "age": 27 },
+  { "id": 10, "name": "vijay", "email": "jane@example.com", "age": 30 }
   ],
   "products1": [
     {
