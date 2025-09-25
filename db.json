@@ -22,5 +22,44 @@
     { "id": 8, "name": "Desk Lamp", "price": 27.49, "category": "Furniture" },
     { "id": 9, "name": "Notebook", "price": 4.99, "category": "Stationery" },
     { "id": 10, "name": "Water Bottle", "price": 15.75, "category": "Fitness" }
+  ],
+  
+  "products 1": [
+    {
+      "id": 1,
+      "name": "Wireless Headphones",
+      "price": 2499,
+      "currency": "INR",
+      "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRJlEf68T6-ioh2oYIiQsQfqIkFhX59UVJUotUzEjl1Yr9x3z08OzAAVQ6-E1SIZsQija2KlXZB-F2x9IHP4QVbIU3R0ZTTv0RDrmADMboX"
+    },
+    {
+      "id": 2,
+      "name": "Smartphone",
+      "price": 15999,
+      "currency": "INR",
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSH-L1wptEWh_pqtT02_z_3VR0N31W7Glad3erC8ElPv9Jk9UI4AwmPRhZ_LEp5r6FJyR5BTiMTh9R5ZI7I9bHOegW8d_3PrpB27t8j8gOx"
+    },
+    {
+      "id": 3,
+      "name": "Running Shoes",
+      "price": 3499,
+      "currency": "INR",
+      "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSpgpfcNo_MFVc-Qs9KDAnwJHqjC7jQGETslk96mN3ktNrGG3IlMIJGqpYnT2rtFSsJZ6wp1fqwga2ZyTQ1wpRsnTmnGQgPS_7dPl-I5-ev38IV4xq8x7MbFw"
+    },
+    {
+      "id": 4,
+      "name": "Laptop Backpack",
+      "price": 1999,
+      "currency": "INR",
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSaGFssHk7xf6QJnr0eFgLhaegRGKe-PiIA3_1AgZEa1QObKQ0QN1pfDl-IjaZlu4XbFug4q2kBzGJDTsTVhEwJfaBnwkzNYL5Z3rVYyS3dyMkp-LkPKwDh"
+    },
+    {
+      "id": 5,
+      "name": "Smartwatch",
+      "price": 4999,
+      "currency": "INR",
+      "image": "https://via.placehohttps://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQX-K3JwlV6hRbapEbg60wHdOhXvDpsz0nVMQaselKwTJpJpzWv3jIFD3gmMQ451Y26WLEWCDIcKL1tyE8USCO_vxJQnXwfiGpsqBu38Pprlder.com/200x200.png?text=Smartwatch"
+    }
   ]
 }
+
