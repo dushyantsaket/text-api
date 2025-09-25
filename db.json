@@ -1,17 +1,26 @@
 {
-  "name": "text-api",
-  "version": "1.0.0",
-  "description": "text-api",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "server": "json-server --watch db.json --port 3000",
-    "start": "json-server --watch db.json --port 3000"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "json-server": "^0.17.4"
-  }
+  "users": [
+    { "id": 1, "name": "Alice Johnson", "email": "alice@example.com", "age": 28 },
+    { "id": 2, "name": "Bob Smith", "email": "bob@example.com", "age": 34 },
+    { "id": 3, "name": "Charlie Davis", "email": "charlie@example.com", "age": 22 },
+    { "id": 4, "name": "Diana Moore", "email": "diana@example.com", "age": 29 },
+    { "id": 5, "name": "Ethan Brown", "email": "ethan@example.com", "age": 41 },
+    { "id": 6, "name": "Fiona Clark", "email": "fiona@example.com", "age": 36 },
+    { "id": 7, "name": "George Wilson", "email": "george@example.com", "age": 25 },
+    { "id": 8, "name": "Hannah Lewis", "email": "hannah@example.com", "age": 31 },
+    { "id": 9, "name": "Ian Thompson", "email": "ian@example.com", "age": 27 },
+    { "id": 10, "name": "Jane Hall", "email": "jane@example.com", "age": 30 }
+  ],
+  "products": [
+    { "id": 1, "name": "Wireless Mouse", "price": 25.99, "category": "Electronics" },
+    { "id": 2, "name": "Bluetooth Speaker", "price": 45.5, "category": "Electronics" },
+    { "id": 3, "name": "Yoga Mat", "price": 20.0, "category": "Fitness" },
+    { "id": 4, "name": "Running Shoes", "price": 89.99, "category": "Footwear" },
+    { "id": 5, "name": "Coffee Maker", "price": 59.99, "category": "Appliances" },
+    { "id": 6, "name": "Backpack", "price": 35.0, "category": "Accessories" },
+    { "id": 7, "name": "Smartphone Stand", "price": 12.5, "category": "Accessories" },
+    { "id": 8, "name": "Desk Lamp", "price": 27.49, "category": "Furniture" },
+    { "id": 9, "name": "Notebook", "price": 4.99, "category": "Stationery" },
+    { "id": 10, "name": "Water Bottle", "price": 15.75, "category": "Fitness" }
+  ]
 }
